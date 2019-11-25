@@ -1,4 +1,4 @@
-FROM elixir:1.7.4
+FROM elixir:1.9.4
 
 RUN apt-get update \
     && apt-get install -y software-properties-common curl apt-transport-https git \
